@@ -5,15 +5,15 @@
 </template>
 
 <script>
-import { UseWheatherStore } from "../stores/stores";
+import { UseWheatherStore } from '../stores/stores'
 export default {
   computed: {
     isLoading() {
       // #return isLoading from pinia store
-      return UseWheatherStore().is_loading;
-    },
-  },
-};
+      return UseWheatherStore().is_loading
+    }
+  }
+}
 </script>
 
 <style scoped>
@@ -62,6 +62,7 @@ export default {
   100% {
     transform: rotate(360deg);
   }
-}</style>
+}
+</style>
 
 <!-- https://codenotfound.dev/article/how-to-setup-global-loading-in-vue-with-axios-interceptors -->

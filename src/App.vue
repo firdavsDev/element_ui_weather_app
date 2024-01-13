@@ -1,5 +1,5 @@
 <script>
-import BaseLoading from "./components/BaseLoading.vue";
+import BaseLoading from './components/BaseLoading.vue'
 export default {
   name: 'App',
   components: {
